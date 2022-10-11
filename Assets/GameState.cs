@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DeckData : MonoBehaviour
+public struct GameState
 {
-    public SortedSet<CardData> contents;
+    public SortedSet<PlayerStruct> playerSet;
+    
 }
